@@ -1,20 +1,49 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+:root{
+    font-size: 20px;
+    font-family: 'Open Sans';
+    --text-primary: #7eb3ff;
+    --text-secondary: #5fa0ff;
+    --background-primary: #2b60b0;
+    --background-secondary: #103368;
+    --content-primary: #506ebe;
+}
+
 
 h1{
-    font-family:verdana
+    font-family: 'Dosis';
 
 
 }
-ul {
+
+body{
+    background-color: var(--background-primary);
+    color: var(--text-primary);
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    margin-left: 5rem;
+    padding: 60rem;
+}
+
+nav{
+    display: block;
+}
+
+ul.nav-bar {
     list-style-type: none;
     margin: 0;
     padding: 0;
 
-    background-color: #363636;
+    background-color: black;
 
 
     overflow: auto;
 }
-li {
+li.nav-content{
     float:left;
 }
 li a{
@@ -22,9 +51,8 @@ li a{
 
     color: White;
     text-align: center;
-    padding: 8px 16px;
+    padding: 8px 8px;
     text-decoration:none;
-    font-family:verdana;
 
 }
 li a:hover {
@@ -32,6 +60,7 @@ li a:hover {
     color: white;
 }
 p{
-    font-family:verdana
-}	h1{ font-family:verdana
-     }
+    color: white;
+    font-family: 'Dosis';
+}
+

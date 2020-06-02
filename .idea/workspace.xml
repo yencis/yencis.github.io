@@ -28,8 +28,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -47,7 +47,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/website_jonathan_yen-20200602T045246Z-001/website_jonathan_yen" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="SvnConfiguration">
@@ -61,7 +61,7 @@
       <option name="presentableId" value="Default" />
       <updated>1591072777027</updated>
       <workItem from="1591072778131" duration="227000" />
-      <workItem from="1591073006602" duration="339000" />
+      <workItem from="1591073006602" duration="3689000" />
     </task>
     <servers />
   </component>
@@ -80,9 +80,9 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="805" y="311" key="FileChooserDialogImpl" timestamp="1591073004069">
+    <state x="805" y="311" key="FileChooserDialogImpl" timestamp="1591073642143">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="805" y="311" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1591073004069" />
+    <state x="805" y="311" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1591073642143" />
   </component>
 </project>
