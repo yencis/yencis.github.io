@@ -20,18 +20,25 @@ h1{
 body{
     background-color: var(--background-primary);
     color: var(--text-primary);
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 
 main{
+    padding-top: 0;
+    margin-top: 5rem;
     margin-left: 5rem;
-    padding: 60rem;
 }
 
-nav{
-    display: block;
+.navbar{
+    padding:0px;
+    margin-top: -5rem;
+    width: 300vh;
+    height: 4rem;
+    position: fixed;
+    background-color: var(--background-secondary);
 }
+
 
 ul.nav-bar {
     list-style-type: none;
