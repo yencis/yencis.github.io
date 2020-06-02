@@ -37,6 +37,7 @@ main{
     height: 4rem;
     position: fixed;
     background-color: var(--background-secondary);
+    <!--transition: width 200ms ease;-->
 }
 
 
@@ -53,6 +54,10 @@ main{
     height: 4rem;
 }
 
+.nav-link{
+    transition: transform 200ms ease;
+}
+
 li a{
     display: block;
 
@@ -62,6 +67,7 @@ li a{
     text-decoration:none;
 
 }
+
 a.nav-link:hover {
     color: white;
     transform: scale(1.1);
@@ -69,6 +75,8 @@ a.nav-link:hover {
 li.nav-item:hover{
     background-color: var(--content-primary);
 }
+
+
 p{
     color: white;
     font-family: 'Dosis';
