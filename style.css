@@ -8,6 +8,7 @@
     --background-primary: #3264b0;
     --background-secondary: #103368;
     --content-primary: #506ebe;
+    --transform-speed: 200ms;
 }
 
 
@@ -58,6 +59,36 @@ main{
     transition: transform 200ms ease;
 }
 
+.birb-icon{
+    height: 3rem;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 50%;
+}
+
+.logo-text{
+    font-family: Dosis;
+    font-weight: bold;
+    text-transform: lowercase;
+    margin-bottom: 1rem;
+    color: var(--text-secondary);
+    letter-spacing: 0.1ch;
+}
+
+.icon-item{
+    display: flex;
+    margin: 0;
+}
+
+.logo{
+    padding-right: 100px;
+}
+
+.nav-link i{
+    transform: rotate(0deg);
+    transition: transform var(--transform-speed) ease;
+}
+
 li a{
     display: block;
 
@@ -71,6 +102,9 @@ li a{
 a.nav-link:hover {
     color: white;
     transform: scale(1.1);
+}
+a.nav-link:hover i{
+    transform: rotate(-20deg);
 }
 li.nav-item:hover{
     background-color: var(--content-primary);
