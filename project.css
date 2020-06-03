@@ -4,6 +4,10 @@
     transition: display 500ms ease;
 }
 
+html{
+    height: 200%;
+}
+
 .nav-button{
     z-index: 2;
     position: fixed;
@@ -62,6 +66,27 @@
 }
 
 .project{
+
     margin-top: 0rem;
     margin-left: 15rem;
+}
+body{
+    background: rgb(95,160,255);
+    background: linear-gradient(0deg, rgba(95,160,255,1) 0%, rgba(94,138,246,1) 73%, rgba(50,100,176,1) 100%);
+}
+
+p.project-content{
+    opacity: 0;
+    color: var(--background-secondary);
+}
+
+#triangle-bottomright {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-bottom: 70rem solid var(--background-secondary);
+    opacity: 25%;
+    border-left: 70rem solid transparent;
 }
