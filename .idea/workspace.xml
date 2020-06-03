@@ -49,6 +49,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/website_jonathan_yen-20200602T045246Z-001/website_jonathan_yen" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jfyen\Documents\yencis.github.io\images" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -61,7 +67,8 @@
       <option name="presentableId" value="Default" />
       <updated>1591072777027</updated>
       <workItem from="1591072778131" duration="227000" />
-      <workItem from="1591073006602" duration="9782000" />
+      <workItem from="1591073006602" duration="10247000" />
+      <workItem from="1591134011192" duration="8428000" />
     </task>
     <servers />
   </component>
@@ -78,11 +85,16 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="805" y="311" key="FileChooserDialogImpl" timestamp="1591073642143">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="805" y="311" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1591073642143" />
+    <state x="854" y="202" key="SettingsEditor" timestamp="1591147034711">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="854" y="202" key="SettingsEditor/0.0.2048.1112@0.0.2048.1112" timestamp="1591147034711" />
   </component>
 </project>
