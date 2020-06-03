@@ -30,6 +30,7 @@
       <list>
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -68,7 +69,8 @@
       <updated>1591072777027</updated>
       <workItem from="1591072778131" duration="227000" />
       <workItem from="1591073006602" duration="10247000" />
-      <workItem from="1591134011192" duration="9481000" />
+      <workItem from="1591134011192" duration="10778000" />
+      <workItem from="1591197004255" duration="5046000" />
     </task>
     <servers />
   </component>
@@ -96,5 +98,9 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="854" y="202" key="SettingsEditor/0.0.2048.1112@0.0.2048.1112" timestamp="1591147034711" />
+    <state x="842" y="285" key="run.anything.popup" timestamp="1591199226565">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="842" y="285" key="run.anything.popup/0.0.2048.1112@0.0.2048.1112" timestamp="1591199226565" />
   </component>
 </project>

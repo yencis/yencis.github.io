@@ -1,0 +1,66 @@
+.navbar-nav-new{
+    list-style-type: none;
+    display: none;
+    transition: display 500ms ease;
+}
+
+.nav-button{
+    z-index: 2;
+    position: fixed;
+    background-color: transparent;
+    color: white;
+    border-color: transparent;
+    outline: none;
+    margin-top: 2.5rem;
+    margin-left: 2.5rem;
+    font-size: 2rem;
+    cursor: grab;
+    transition: background-color 200ms ease;
+    border-radius: 10px;
+}
+
+.nav-button:active{
+    background-color: white;
+    opacity: 20%;
+}
+
+
+
+.navbar-new{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: 0rem;
+    height: 200vh;
+    background: var(--background-secondary);
+    position: fixed;
+    transition: width 200ms ease;
+}
+
+.navbar-nav-new{
+    margin-top: 10rem;
+}
+
+.birb-icon-new{
+    height: 5rem;
+    padding: 0px;
+    border-radius: 50%;
+}
+
+.logo-text-new{
+    font-family: Dosis;
+    font-weight: bold;
+    text-transform: lowercase;
+    margin-bottom: 2rem;
+    color: var(--text-secondary);
+    letter-spacing: 0.3ch;
+}
+
+.logo{
+    margin-left: 0.5rem;
+    margin-bottom: 5rem;
+}
+
+.project{
+    margin-left: 15rem;
+}
