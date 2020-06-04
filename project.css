@@ -6,6 +6,7 @@
 
 html{
     height: 200%;
+    overflow-x: hidden;
 }
 
 .nav-button{
@@ -128,6 +129,26 @@ p.project-content{
     border: none;
     background: rgb(97,142,255);
     background: radial-gradient(circle, rgba(97,142,255,1) 0%, rgba(82,144,236,1) 50%, rgba(84,152,255,1) 100%);
+}
+
+.project-links{
+    flex-wrap: wrap;
+    position: center;
+    margin-left: 0;
+    padding:0;
+    margin-top: 10rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.flex-item{
+    border-radius: 25px;
+    margin-top: 5rem;
+    min-width: 0;
+    width: 20rem;
+    height: 15rem;
+    background: rgb(179,209,254);
+    background: linear-gradient(164deg, rgba(179,209,254,1) 0%, rgba(255,255,255,1) 50%, rgba(223,232,255,1) 100%);
 }
 
 
