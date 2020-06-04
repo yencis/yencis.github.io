@@ -53,11 +53,11 @@
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\jfyen\Documents\yencis.github.io\mazesimulate-js" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\jfyen\Documents\yencis.github.io\images" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jfyen\Documents\yencis.github.io\mazesimulate-js" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -75,7 +75,9 @@
       <workItem from="1591134011192" duration="10778000" />
       <workItem from="1591197004255" duration="9029000" />
       <workItem from="1591206906081" duration="29000" />
-      <workItem from="1591214804690" duration="21008000" />
+      <workItem from="1591214804690" duration="21147000" />
+      <workItem from="1591305094661" duration="27000" />
+      <workItem from="1591306560782" duration="3882000" />
     </task>
     <servers />
   </component>

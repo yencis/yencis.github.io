@@ -142,7 +142,6 @@ p.project-content{
 }
 
 .flex-item{
-    display: block;
     border-radius: 25px;
     margin-top: 5rem;
     min-width: 0;
@@ -165,11 +164,72 @@ p.project-content{
     filter: brightness(35%) blur(5px);
 }
 
+#maze-js{
+    margin: auto;
+    margin-top: 1rem;
+    position: relative;
+    width: 18rem;
+    height:13rem;
+    z-index: 3;
+    border-radius: 15px;
+    background: url('images/mazegif3.jpg');
+    background-size: 2900px;
+    filter: brightness(35%) blur(5px);
+}
+
+#maze-java{
+    margin: auto;
+    margin-top: 1rem;
+    position: relative;
+    width: 18rem;
+    height:13rem;
+    z-index: 3;
+    border-radius: 15px;
+    background: url('images/mazejava.PNG');
+    background-size: 380px;
+    filter: brightness(35%) blur(5px);
+}
+
+#maze-java:hover{
+    filter: brightness(60%) blur(0px);
+}
+
 @keyframes maze{
     100% {background-position: -2875px 0px}
 }
 
 #maze-js:hover{
-    filter: brightness(80%) blur(0px);
+    filter: brightness(60%) blur(0px);
     animation: maze 1s steps(8) infinite;
+}
+
+.info-box{
+    width: 20rem;
+    height: 0rem;
+    background: rgb(190,216,255);
+    background: linear-gradient(321deg, rgba(190,216,255,1) 0%, rgba(172,203,249,1) 50%, rgba(89,125,217,1) 100%);
+    border-radius: 25px;
+    transition: height 100ms ease;
+}
+
+.info-button{
+    position: absolute;
+    padding: 0;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    z-index: 4;
+    background-color: transparent;
+    color: white;
+    border-color: transparent;
+    outline: none;
+    font-size: 2rem;
+    cursor: grab;
+}
+
+.info-text{
+    display: flow;
+    position: absolute;
+    margin-top: 5rem;
+    margin-left: 2rem;
+    color: white;
 }

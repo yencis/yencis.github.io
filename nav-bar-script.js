@@ -22,3 +22,17 @@ function display_nav(i){
     else
         navBar.style.display="none";
 }
+
+function info_button(i){
+    var navItem = document.getElementsByClassName("the-link")[i];
+    var infoBox = document.getElementsByClassName("info-box")[i];
+    console.log("pressed button")
+    if (infoBox.style.height=="0rem"||infoBox.style.height==0){
+        navItem.style.display = "none";
+        infoBox.style.height = "15rem"
+    }else{
+        infoBox.style.height = "0rem";
+        navItem.style.display= "block";
+    }
+
+}
