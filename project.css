@@ -142,6 +142,7 @@ p.project-content{
 }
 
 .flex-item{
+    display: block;
     border-radius: 25px;
     margin-top: 5rem;
     min-width: 0;
@@ -151,4 +152,24 @@ p.project-content{
     background: linear-gradient(164deg, rgba(179,209,254,1) 0%, rgba(255,255,255,1) 50%, rgba(223,232,255,1) 100%);
 }
 
+#maze-js{
+    margin: auto;
+    margin-top: 1rem;
+    position: relative;
+    width: 18rem;
+    height:13rem;
+    z-index: 3;
+    border-radius: 15px;
+    background: url('images/mazegif3.jpg');
+    background-size: 2900px;
+    filter: brightness(35%) blur(5px);
+}
 
+@keyframes maze{
+    100% {background-position: -2875px 0px}
+}
+
+#maze-js:hover{
+    filter: brightness(80%) blur(0px);
+    animation: maze 1s steps(8) infinite;
+}

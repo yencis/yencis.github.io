@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title> Maze Generator </title>
+		<link rel="shortcut icon" href="../img/favicon.jpg" type="image/x-icon">
+		<link rel="icon" href="../img/favicon.jpg" type="image/x-icon">
+	</head>
+
+	<body style="display:flex; flex-direction:row;">
+	<canvas id = "maze"></canvas>
+		<div> <!-- Maze Size/Type Selector -->
+			<button id="generate">Generate Maze of Rows/Cols/Method:</button>
+			<input id="rows" type="number" value="55" />
+			<input id="cols" type="number" value="55" />
+			<select id="type">
+				<option value="prim">Prim's Algorithm, Randomized Edition</option>
+				<option value="simple">SimpleGen Algorithm</option>
+				<option value="brick">BrickGen Algorithm</option>
+			</select>
+
+			<!-- Maze Solve Selector -->
+			<br>
+			<button id="solve">Solve with Method:</button>
+			<select id="solvetype">
+				<option value="bfs">Breadth-First Search</option>
+				<option value="dfs">Depth-First Search</option>
+			</select>
+		</div>
+	<script src="../util/queue.js" type="text/javascript"></script>
+	<script src="../util/stack.js" type="text/javascript"></script>
+	<script src="cell.js" type="text/javascript"></script>
+	<script src="maze.js" type="text/javascript"></script>
+	<script src="../searches/breadthFirstSearch.js" type="text/javascript"></script>
+	<script src="../searches/depthFirstSearch.js" type = "text/javascript"></script>
+	<script src="../generators/simpleGen.js" type="text/javascript"></script>
+	<script src="../generators/primGen.js" type="text/javascript"></script>
+	<script src="../generators/brickGen.js" type="text/javascript"></script>
+	<script src="app.js" type="text/javascript"></script>
+	</body>
+</html>
