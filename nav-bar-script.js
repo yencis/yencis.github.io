@@ -4,10 +4,13 @@ function test(){
 
 function nav_button(){
     var navBar = document.getElementsByClassName("navbar-new")[0];
+    var navButton = document.getElementsByClassName("nav-button")[0];
     if (navBar.style.width!="10rem"){
+        navButton.style.color = "white";
         display_nav(0);
         navBar.style.width="10rem";
     }else{
+        update_button();
         display_nav(1);
         navBar.style.width="0rem";
     }

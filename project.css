@@ -190,6 +190,19 @@ p.project-content{
     filter: brightness(35%) blur(5px);
 }
 
+#wiki-racer{
+    margin: auto;
+    margin-top: 1rem;
+    position: relative;
+    width: 18rem;
+    height:13rem;
+    z-index: 3;
+    border-radius: 15px;
+    background: url('images/wikiracer.PNG');
+    background-size: 380px;
+    filter: brightness(35%) blur(5px);
+}
+
 #maze-java:hover{
     filter: brightness(60%) blur(0px);
 }
@@ -201,6 +214,10 @@ p.project-content{
 #maze-js:hover{
     filter: brightness(60%) blur(0px);
     animation: maze 1s steps(8) infinite;
+}
+
+#wiki-racer:hover{
+    filter: brightness(60%) blur(0px);
 }
 
 .info-box{
@@ -232,4 +249,9 @@ p.project-content{
     margin-top: 5rem;
     margin-left: 2rem;
     color: white;
+}
+
+.smaller-text{
+    font-size: 1rem;
+    margin-top: 4rem;
 }
