@@ -1,5 +1,8 @@
-function update_font(){
-    var projectP = document.getElementsByClassName("project-content")[0];
-
-    console.log(projectP.style.opacity=(toString(2000/window.scrollY)+"%"));
+function update_button(){
+    var nButton = document.getElementsByClassName("nav-button")[0];
+    if (window.scrollY>221){
+        nButton.style.color = "#FFFFFF";
+    }else{
+        nButton.style.color = "#3264b0";
+    }
 }

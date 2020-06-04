@@ -12,7 +12,7 @@ html{
     z-index: 2;
     position: fixed;
     background-color: transparent;
-    color: white;
+    color: var(--background-primary);
     border-color: transparent;
     outline: none;
     margin-top: 2.5rem;
@@ -36,7 +36,8 @@ html{
     padding: 0;
     width: 0rem;
     height: 200vh;
-    background: var(--background-secondary);
+    background: rgb(0,26,64);
+    background: linear-gradient(49deg, rgba(0,26,64,1) 0%, rgba(37,88,164,1) 54%, rgba(0,46,162,1) 100%);
     position: fixed;
     transition: width 200ms ease;
 }
@@ -72,12 +73,23 @@ html{
 }
 body{
     background: rgb(95,160,255);
-    background: linear-gradient(0deg, rgba(95,160,255,1) 0%, rgba(94,138,246,1) 73%, rgba(50,100,176,1) 100%);
+    background: radial-gradient(circle, rgba(95,160,255,1) 0%, rgba(51,108,249,1) 36%, rgba(50,100,176,1) 100%);
 }
 
 p.project-content{
-    opacity: 0;
-    color: var(--background-secondary);
+    margin-top: 10rem;
+    color: white;
+}
+
+#triangle-topleft-bg {
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 0;
+    height: 0;
+    border-top: 400px solid white;
+    border-right: 500vh solid transparent;
 }
 
 #triangle-bottomright {
@@ -90,3 +102,32 @@ p.project-content{
     opacity: 25%;
     border-left: 70rem solid transparent;
 }
+
+#triangle-bottomleft-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    opacity: 50%;
+    border-bottom: 100vh solid var(--background-secondary);
+    background: radial-gradient(circle, rgba(97,142,255,1) 0%, rgba(82,144,236,1) 50%, rgba(147,190,255,1) 100%);
+    border-right: 50rem transparent;
+    z-index: -2;
+}
+
+
+#grad-grid {
+    position:absolute;
+    top:0;
+    margin-left: 20rem;
+    width: 200vh;
+    height: 30rem;
+    z-index: -2;
+    transform: skew(20deg);
+    border: none;
+    background: rgb(97,142,255);
+    background: radial-gradient(circle, rgba(97,142,255,1) 0%, rgba(82,144,236,1) 50%, rgba(84,152,255,1) 100%);
+}
+
+
