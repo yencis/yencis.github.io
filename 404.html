@@ -14,12 +14,14 @@
 </head>
 <body>
     <main>
-        <div class="sign" onmouseover="flicker()" onmouseout="stopFlicker()">
+        <div class="sign" onmouseover="flicker()">
             <p class="msg">
                 <span class="text">40</span><span class="text">4</span><span class="text"> Er</span><span class="text">ror</span>
                 <br>
             </p>
             <p>The page you request is simply non-existent. Perhaps you'd like to return to the <a href=home.html>homepage?</a></p>
+            <p>Also the flicker may lag. If so, you may switch it off.</p>
+            <button onclick="toggleFlicker()" class="switch">Flicker I/O</button>
         </div>
     </main>
     <script src="scripts.js"></script>

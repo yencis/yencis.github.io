@@ -1,4 +1,4 @@
-
+var flickerStatus = 1;
 function update_button(){
     var nButton = document.getElementsByClassName("nav-button")[0];
     var navBar = document.getElementsByClassName("navbar-new")[0];
@@ -10,6 +10,7 @@ function update_button(){
 }
 
 function flicker(){
+    if (flickerStatus==0) return;
     var i = parseInt(Math.random()*4);
     document.getElementsByClassName("text")[i].style.color = "#474747";
     document.getElementsByClassName("text")[i].style.animation= "none";
@@ -23,8 +24,8 @@ function flicker(){
     ,1000);
 }
 
-function stopFlicker(){
-    flickerStatus = 0;
+function toggleFlicker(){
+    flickerStatus = 1-flickerStatus;
 }
 
 function sleep(ms) {

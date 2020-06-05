@@ -46,3 +46,18 @@ a{
         text-shadow: 0 0 30px #fff, 0 0 40px #ffffff, 0 0 50px #ffffff, 0 0 60px #ffffff, 0 0 70px #ffffff, 0 0 70px #ffffff, 0 0 80px #ffffff;
     }
 }
+
+.switch{
+    z-index: 2;
+    background-color: transparent;
+    color: white;
+    border-color: transparent;
+    outline: none;
+    font-size: 2rem;
+    cursor: grab;
+    border-radius: 10px;
+}
+
+.switch:hover{
+    background-color: var(--background-secondary);
+}
