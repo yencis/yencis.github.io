@@ -6,6 +6,7 @@
 <head>
     <link rel="icon" href="images/favicon.ico">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="404.css">
     <link rel="stylesheet" href="//fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap">
     <meta charset="UTF-8">
     <title>Projects</title>
@@ -13,11 +14,14 @@
 </head>
 <body>
     <main>
-        <p>
-            404: You Are Bald
-            <br>
-            <a href=home.html>Return to homepage</a>
-        </p>
+        <div class="sign" onmouseover="flicker()" onmouseout="stopFlicker()">
+            <p class="msg">
+                <span class="text">40</span><span class="text">4</span><span class="text"> Er</span><span class="text">ror</span>
+                <br>
+            </p>
+            <p>The page you request is simply non-existent. Perhaps you'd like to return to the <a href=home.html>homepage?</a></p>
+        </div>
     </main>
+    <script src="scripts.js"></script>
 </body>
 </html>

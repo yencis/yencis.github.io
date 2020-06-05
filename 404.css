@@ -1,0 +1,48 @@
+
+@font-face{
+    font-family: 'Marquee Moon';
+    src: url("fonts/marqueemoon.ttf");
+}
+
+body{
+    background-color: #061d44;
+}
+.sign{
+    text-align: center;
+
+}
+
+.msg{
+    border-style: solid;
+    border-color: white;
+    border-radius: 15px;
+    display: inline-block;
+    position: relative;
+    margin: auto;
+    color: white;
+    font-family: "Marquee Moon";
+    font-size: 80px;
+
+    box-shadow: 0 4px 8px 0 rgb(255, 255, 255), 0 6px 20px 0 rgb(255, 255, 255);
+}
+
+.msg span{
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+a{
+    color: var(--text-primary)
+}
+
+.msg:hover{
+
+}
+
+@keyframes glow{
+    from {
+        text-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 30px #ffffff, 0 0 40px #ffffff, 0 0 50px #ffffff, 0 0 60px #ffffff, 0 0 70px #ffffff;
+    }
+    to {
+        text-shadow: 0 0 30px #fff, 0 0 40px #ffffff, 0 0 50px #ffffff, 0 0 60px #ffffff, 0 0 70px #ffffff, 0 0 70px #ffffff, 0 0 80px #ffffff;
+    }
+}
