@@ -10,9 +10,9 @@ function nav_button(){
         display_nav(0);
         navBar.style.width="10rem";
     }else{
-        update_button();
         display_nav(1);
         navBar.style.width="0rem";
+        update_button();
     }
 
 

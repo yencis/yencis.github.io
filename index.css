@@ -1,0 +1,26 @@
+.main-content{
+    margin-top: 100vh;
+    color: white;
+}
+
+#triangle-topleft-bg{
+    border-top: 100vh solid white;
+    border-right: 1000vw solid transparent;
+}
+
+.links{
+    color: #3264b0;
+    text-decoration: none;
+}
+
+.links:hover{
+    color: #061d44;
+}
+
+.verbose{
+    text-shadow: 0 0 20px #5e8af6, 0 0 30px #7eb3ff;
+}
+
+#grad-grid{
+    margin-top: 65vh;
+}
