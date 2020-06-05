@@ -255,3 +255,7 @@ p.project-content{
     font-size: 1rem;
     margin-top: 4rem;
 }
+
+.info-button:hover{
+    color: #d2d2d2;
+}
