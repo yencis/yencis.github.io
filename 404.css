@@ -27,7 +27,8 @@ body{
 }
 
 .msg span{
-    animation: glow 1s ease-in-out infinite alternate;
+    text-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 30px #ffffff, 0 0 40px #ffffff, 0 0 50px #ffffff, 0 0 60px #ffffff, 0 0 70px #ffffff;
+    <!--animation: glow 1s ease-in-out infinite alternate;-->
 }
 
 a{

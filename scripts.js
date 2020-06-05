@@ -13,13 +13,15 @@ function flicker(){
     if (flickerStatus==0) return;
     var i = parseInt(Math.random()*4);
     document.getElementsByClassName("text")[i].style.color = "#474747";
-    document.getElementsByClassName("text")[i].style.animation= "none";
+    //document.getElementsByClassName("text")[i].style.animation= "none";
+    document.getElementsByClassName("text")[i].style.textShadow= "none";
     console.log("hello");
 
     setTimeout(function() {
         console.log("helo2");
         document.getElementsByClassName("text")[i].style.color = "white";
-        document.getElementsByClassName("text")[i].style.animation = "glow 1s ease-in-out infinite alternate";
+        //document.getElementsByClassName("text")[i].style.animation = "glow 1s ease-in-out infinite alternate";
+        document.getElementsByClassName("text")[i].style.textShadow= "0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 30px #ffffff, 0 0 40px #ffffff, 0 0 50px #ffffff, 0 0 60px #ffffff, 0 0 70px #ffffff";
     }
     ,1000);
 }
