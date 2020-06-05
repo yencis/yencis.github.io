@@ -24,3 +24,15 @@
 #grad-grid{
     margin-top: 65vh;
 }
+
+#upper-pgram{
+    position: absolute;
+    top: 0;
+    width: 50vw;
+    height: 20vh;
+    margin-left: 50vw;
+    transform: skew(20deg);
+    background: rgb(94,138,246);
+    background: linear-gradient(43deg, rgba(94,138,246,1) 0%, rgba(126,179,255,1) 50%, rgba(95,160,255,1) 100%);
+
+}
