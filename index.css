@@ -26,6 +26,7 @@
 }
 
 #upper-pgram{
+    z-index: 4;
     position: absolute;
     top: 0;
     width: 50vw;
