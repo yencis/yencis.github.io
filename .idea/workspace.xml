@@ -55,14 +55,15 @@
     <property name="settings.editor.selected.configurable" value="settings.nodejs" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\jfyen\Documents\yencis.github.io" />
-      <recent name="C:\Users\jfyen\Documents\yencis.github.io\fonts" />
-      <recent name="C:\Users\jfyen\Documents\yencis.github.io\images" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\jfyen\Documents\yencis.github.io\digit-recognise" />
       <recent name="C:\Users\jfyen\Documents\yencis.github.io\mazesimulate-js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jfyen\Documents\yencis.github.io\handwritten-digit-recognition" />
+      <recent name="C:\Users\jfyen\Documents\yencis.github.io" />
+      <recent name="C:\Users\jfyen\Documents\yencis.github.io\fonts" />
+      <recent name="C:\Users\jfyen\Documents\yencis.github.io\images" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -97,6 +98,7 @@
       <workItem from="1592940965162" duration="71000" />
       <workItem from="1593914606674" duration="23000" />
       <workItem from="1593914767621" duration="843000" />
+      <workItem from="1593915775782" duration="72000" />
     </task>
     <servers />
   </component>
