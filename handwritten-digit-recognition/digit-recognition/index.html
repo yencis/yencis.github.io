@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@2.0.0/dist/tf.min.js"></script>
+
+</head>
+<body>
+    <p>
+        <b> Instructions: </b><br>
+        Draw a number from 0-9 on the canvas below. <br>
+        Press "Load Image", and then "Recognize". <br>
+        The program will attempt to recognize the numeral you have written,<br>
+        and the results will be exhibited in the table below.
+    </p>
+    <p>
+        <b>Credits: </b>
+        <a href="https://github.com/yencis">yencis</a>, <a href="https://github.com/mysticworks">mysticworks</a>
+    </p>
+
+    <button onclick="exportData()">Load Image</button>
+    <button onclick ="recognise()">Recognize</button>
+    <button onclick="clearCanvas()">Clear</button>
+
+    <div id="guidiv">
+        <canvas id="canvas" width="280px" height="280px">
+        </canvas>
+        <canvas id="tempCanvas" width="28px" height="28px">
+        </canvas>
+        <!--<img id="preview">-->
+    </div>
+    <h2>That is a </h2>
+    <div id="answer"></div>
+    <h2>With a confidence of </h2>
+    <div id="confidence"></div>
+    <div id="pblist">
+        <div class="number">
+            <span class="text">0: </span><br>
+            <span class="text" id="zero">0%</span>
+        </div>
+        <div class="number">
+            <span class="text">1: </span><br>
+            <span class="text" id="one">0%</span>
+        </div>
+        <div class="number">
+            <span class="text">2: </span><br>
+            <span class="text" id="two">0%</span>
+        </div>
+        <div class="number">
+            <span class="text">3: </span><br>
+            <span class="text" id="three">0%</span>
+        </div>
+        <div class="number">
+            <span class="text">4: </span><br>
+            <span class="text" id="four">0%</span>
+        </div>
+        <div class="number">
+            <span class="text">5: </span><br>
+            <span class="text" id="five">0%</span>
+        </div>
+        <div class="number">
+            <span class="text">6: </span><br>
+            <span class="text" id="six">0%</span>
+        </div>
+        <div class="number">
+            <span class="text">7: </span><br>
+            <span class="text" id="seven">0%</span>
+        </div>
+        <div class="number">
+            <span class="text">8: </span><br>
+            <span class="text" id="eight">0%</span>
+        </div>
+        <div class="number">
+            <span class="text">9: </span><br>
+            <span class="text" id="nine">0%</span>
+        </div>
+    </div>
+
+    <script src="model.js"></script>
+    <script src="canvas.js"></script>
+</body>
+</html>

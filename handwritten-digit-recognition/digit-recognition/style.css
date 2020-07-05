@@ -1,0 +1,51 @@
+#guidiv {
+    display: block;
+    margin-top: 10px;
+    /*display: flex;*/
+    /*justify-content: space-evenly;*/
+    width: 1000px;
+    height: 300px;
+}
+
+#canvas {
+    flex-wrap: wrap;
+}
+
+#tempCanvas{
+    top: 0;
+    background: blue;
+}
+
+#pblist{
+    background: white;
+    position: absolute;
+    width: 1000px;
+    height: 300px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+.number{
+    flex-wrap: wrap;
+    width: 100px;
+    height: 100px;
+    background: white;
+    border: 5px solid black;
+    display: block;
+}
+
+span{
+    font-family: Verdana;
+    font-size: 20px;
+}
+
+h2{
+    font-family: Verdana;
+}
+
+p{
+    font-family: Verdana;
+
+}

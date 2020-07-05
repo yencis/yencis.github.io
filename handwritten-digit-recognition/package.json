@@ -1,0 +1,12 @@
+{
+  "name": "handwritten-digit-recognition",
+  "version": "1.0.0",
+  "dependencies": {
+    "@tensorflow/tfjs": "^2.0.1"
+  },
+  "devDependencies": {
+    "@tensorflow/tfjs": "^2.0.1",
+    "@tensorflow/tfjs-layers": "^2.0.1",
+    "@tensorflow/tfjs-converter": "^2.0.1"
+  }
+}
