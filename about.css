@@ -1,0 +1,59 @@
+#triangle-topleft-small{
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 0;
+    height: 0;
+    border-top: 400px solid white;
+    border-right: 500vh solid transparent;
+}
+#grad-grid-top {
+    position: absolute;
+    top: 0;
+    margin-left: 20rem;
+    width: 200vh;
+    height: 30rem;
+    z-index: -2;
+    transform: skew(20deg);
+    border: none;
+    background: rgb(97, 142, 255);
+    background: radial-gradient(circle, rgba(97, 142, 255, 1) 0%, rgba(82, 144, 236, 1) 50%, rgba(84, 152, 255, 1) 100%);
+}
+
+#center-one{
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    margin-top: 30rem;
+    left: 0;
+    margin-left: -200px;
+    width: 0;
+    height: 0;
+    border-bottom: 200px solid white;
+    border-left: 500vh solid transparent;
+}
+
+#div-whoami{
+    z-index: -1;
+    position: absolute;
+    width: 100vw;
+    height: 50rem;
+    top: 0;
+    margin-top: 40rem;
+    background: white;
+    left: 0;
+}
+
+
+#center-one-bottom{
+    z-index: -1;
+    top: 0;
+    position: absolute;
+    left: 0;
+    margin-top: 90rem;
+    width: 0;
+    height: 0;
+    border-top: 100px solid white;
+    border-right: 100vw solid transparent;
+}

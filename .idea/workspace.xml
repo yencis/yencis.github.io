@@ -28,14 +28,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="package.json" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/handwritten-digit-recognition" />
   </component>
   <component name="ProjectId" id="1ckVracs90ueZJuYOKfk8DsBgcR" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -48,17 +49,19 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/mazesimulate-js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\jfyen\Documents\yencis.github.io\fonts" />
       <recent name="C:\Users\jfyen\Documents\yencis.github.io" />
+      <recent name="C:\Users\jfyen\Documents\yencis.github.io\fonts" />
       <recent name="C:\Users\jfyen\Documents\yencis.github.io\images" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jfyen\Documents\yencis.github.io\digit-recognise" />
       <recent name="C:\Users\jfyen\Documents\yencis.github.io\mazesimulate-js" />
     </key>
   </component>
@@ -85,7 +88,15 @@
       <workItem from="1591569232629" duration="2138000" />
       <workItem from="1591664499323" duration="23000" />
       <workItem from="1591664555633" duration="137000" />
-      <workItem from="1591730338815" duration="1257000" />
+      <workItem from="1591730338815" duration="2071000" />
+      <workItem from="1591765355711" duration="3132000" />
+      <workItem from="1591808657747" duration="600000" />
+      <workItem from="1592774455095" duration="881000" />
+      <workItem from="1592775343054" duration="1847000" />
+      <workItem from="1592940802145" duration="8000" />
+      <workItem from="1592940965162" duration="71000" />
+      <workItem from="1593914606674" duration="23000" />
+      <workItem from="1593914767621" duration="751000" />
     </task>
     <servers />
   </component>
@@ -105,21 +116,21 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="805" y="311" key="FileChooserDialogImpl" timestamp="1591073642143">
+    <state x="805" y="311" key="FileChooserDialogImpl" timestamp="1592777185338">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="805" y="311" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1591073642143" />
-    <state x="854" y="202" key="SettingsEditor" timestamp="1591147034711">
+    <state x="805" y="311" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1592777185338" />
+    <state x="854" y="202" key="SettingsEditor" timestamp="1592775523393">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="854" y="202" key="SettingsEditor/0.0.2048.1112@0.0.2048.1112" timestamp="1591147034711" />
-    <state x="734" y="155" width="579" height="801" key="find.popup" timestamp="1591312570337">
+    <state x="854" y="202" key="SettingsEditor/0.0.2048.1112@0.0.2048.1112" timestamp="1592775523393" />
+    <state x="734" y="155" width="579" height="801" key="find.popup" timestamp="1592774490038">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="734" y="155" width="579" height="801" key="find.popup/0.0.2048.1112@0.0.2048.1112" timestamp="1591312570337" />
-    <state x="842" y="285" key="run.anything.popup" timestamp="1591199226565">
+    <state x="734" y="155" width="579" height="801" key="find.popup/0.0.2048.1112@0.0.2048.1112" timestamp="1592774490038" />
+    <state x="842" y="285" key="run.anything.popup" timestamp="1592775548944">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="842" y="285" key="run.anything.popup/0.0.2048.1112@0.0.2048.1112" timestamp="1591199226565" />
+    <state x="842" y="285" key="run.anything.popup/0.0.2048.1112@0.0.2048.1112" timestamp="1592775548944" />
   </component>
 </project>

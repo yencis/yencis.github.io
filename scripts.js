@@ -1,13 +1,18 @@
 var flickerStatus = 1;
-function update_button(y=300){
+
+function update_button(...yvals){
     var nButton = document.getElementsByClassName("nav-button")[0];
     var navBar = document.getElementsByClassName("navbar-new")[0];
-    if (window.scrollY>y || navBar.style.width == "10rem"){
-        nButton.style.color = "#FFFFFF";
-    }else{
-        nButton.style.color = "#3264b0";
+    for (var i = 0;i<yvals.length;i++) {
+        if ((i==yvals.length-1&&window.scrollY>yvals[i]) || (window.scrollY > yvals[i] && window.scrollY < yvals[i+1] && i%2==0) || navBar.style.width == "10rem") {
+            nButton.style.color = "#FFFFFF";
+            break;
+        } else {
+            nButton.style.color = "#3264b0";
+        }
     }
 }
+
 
 function flicker(){
     if (flickerStatus==0) return;
