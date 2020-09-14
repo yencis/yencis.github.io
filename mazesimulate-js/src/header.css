@@ -1,0 +1,22 @@
+.header{
+    margin-left: -20px;
+    padding-left: -10px;
+    width: 100vw;
+    height: 40px;
+    background: black;
+    bottom: 0;
+    color: white;
+    font-family: Verdana;
+}
+
+#link:visited{
+    color:white;
+}
+
+#link:link{
+    color:white;
+}
+
+#link:hover{
+    color:blue;
+}

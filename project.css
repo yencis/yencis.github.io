@@ -36,7 +36,7 @@ html{
     margin: 0;
     padding: 0;
     width: 0rem;
-    height: 200vh;
+    height: 100vh;
     background: rgb(0,26,64);
     background: linear-gradient(49deg, rgba(0,26,64,1) 0%, rgba(37,88,164,1) 54%, rgba(0,46,162,1) 100%);
     position: fixed;
@@ -44,7 +44,7 @@ html{
 }
 
 .navbar-nav-new{
-    margin-top: 10rem;
+    margin-top: 20vh;
 }
 
 .birb-icon-new{

@@ -3,6 +3,7 @@ var flickerStatus = 1;
 function update_button(...yvals){
     var nButton = document.getElementsByClassName("nav-button")[0];
     var navBar = document.getElementsByClassName("navbar-new")[0];
+
     for (var i = 0;i<yvals.length;i++) {
         if ((i==yvals.length-1&&window.scrollY>yvals[i]) || (window.scrollY > yvals[i] && window.scrollY < yvals[i+1] && i%2==0) || navBar.style.width == "10rem") {
             nButton.style.color = "#FFFFFF";

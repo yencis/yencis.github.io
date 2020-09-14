@@ -5,6 +5,9 @@ function test(){
 function nav_button(){
     var navBar = document.getElementsByClassName("navbar-new")[0];
     var navButton = document.getElementsByClassName("nav-button")[0];
+    var yvalues = document.getElementsByClassName("yvalues")[0];
+    yvalues = yvalues.innerHTML.split(" ");
+    yvalues.map(parseInt);
     if (navBar.style.width!="10rem"){
         navButton.style.color = "white";
         display_nav(0);
@@ -12,7 +15,7 @@ function nav_button(){
     }else{
         display_nav(1);
         navBar.style.width="0rem";
-        update_button();
+        update_button.apply(this,yvalues);
     }
 
 

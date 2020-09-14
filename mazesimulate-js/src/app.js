@@ -30,6 +30,11 @@ function init(){
     let mazeCols = COLS.value;
     let mazeType = TYPE.value;
 
+    if (mazeRows%2==0)
+        mazeRows=(parseInt(mazeRows)+1).toString()
+    if (mazeCols%2==0)
+        mazeCols=(parseInt(mazeCols)+1).toString()
+
     maze = new Maze();
     maze.init(mazeRows, mazeCols);
     maze.generate(mazeType);

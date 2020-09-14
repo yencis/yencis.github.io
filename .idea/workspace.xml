@@ -28,15 +28,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="package.json" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/handwritten-digit-recognition" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1ckVracs90ueZJuYOKfk8DsBgcR" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -98,7 +98,17 @@
       <workItem from="1592940965162" duration="71000" />
       <workItem from="1593914606674" duration="23000" />
       <workItem from="1593914767621" duration="843000" />
-      <workItem from="1593915775782" duration="72000" />
+      <workItem from="1593915775782" duration="207000" />
+      <workItem from="1596325572338" duration="1833000" />
+      <workItem from="1597722065379" duration="28000" />
+      <workItem from="1597722110486" duration="3271000" />
+      <workItem from="1597766738757" duration="599000" />
+      <workItem from="1597771962370" duration="4432000" />
+      <workItem from="1597865052961" duration="3039000" />
+      <workItem from="1598322692794" duration="72000" />
+      <workItem from="1598326242309" duration="1913000" />
+      <workItem from="1598575509350" duration="11000" />
+      <workItem from="1600117455594" duration="2303000" />
     </task>
     <servers />
   </component>
@@ -118,10 +128,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="805" y="311" key="FileChooserDialogImpl" timestamp="1592777185338">
+    <state x="805" y="311" key="FileChooserDialogImpl" timestamp="1597774981889">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="805" y="311" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1592777185338" />
+    <state x="805" y="311" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1597774981889" />
     <state x="854" y="202" key="SettingsEditor" timestamp="1592775523393">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>

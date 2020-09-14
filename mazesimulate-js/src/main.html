@@ -5,10 +5,18 @@
 		<meta charset="utf-8" />
 		<title> Maze Generator </title>
 		<link rel="shortcut icon" href="../img/favicon.jpg" type="image/x-icon">
+		<link rel="stylesheet" type="text/css" href="header.css">
 		<link rel="icon" href="../img/favicon.jpg" type="image/x-icon">
 	</head>
 
-	<body style="display:flex; flex-direction:row;">
+	<body>
+	<header class="header">
+		<h1>&nbsp;&nbsp;&nbsp;&nbsp;<a id="link" href="https://yencis.github.io/projects.html">Back to Projects</a></h1>
+	</header>
+	<br>
+	<br>
+	<div style="display:flex; flex-direction:row;">
+
 	<canvas id = "maze"></canvas>
 		<div> <!-- Maze Size/Type Selector -->
 			<button id="generate">Generate Maze of Rows/Cols/Method:</button>
@@ -28,6 +36,9 @@
 				<option value="bfs">Breadth-First Search</option>
 				<option value="dfs">Depth-First Search</option>
 			</select>
+			<br>
+			<br>
+			<span>Prim's Algorithm doesn't work properly, so change to BrickGen</span>
 		</div>
 	<a href="/yencis.github.io/projects.html">Back to Projects</a>
 	<script src="../util/queue.js" type="text/javascript"></script>
@@ -40,5 +51,6 @@
 	<script src="../generators/primGen.js" type="text/javascript"></script>
 	<script src="../generators/brickGen.js" type="text/javascript"></script>
 	<script src="app.js" type="text/javascript"></script>
+	</div>
 	</body>
 </html>

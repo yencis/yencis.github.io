@@ -4,8 +4,8 @@
 }
 
 #triangle-topleft-bg{
-    border-top: 100vh solid white;
-    border-right: 1000vw solid transparent;
+    border-top: 70vh solid white;
+    border-right: 800vw solid transparent;
 }
 
 .links{
@@ -21,8 +21,12 @@
     text-shadow: 0 0 20px #5e8af6, 0 0 30px #7eb3ff;
 }
 
+p{
+    font-size: 2rem;
+}
+
 #grad-grid{
-    margin-top: 65vh;
+    margin-top: 30vh;
 }
 
 #upper-pgram{
@@ -37,3 +41,4 @@
     background: linear-gradient(43deg, rgba(94,138,246,1) 0%, rgba(126,179,255,1) 50%, rgba(95,160,255,1) 100%);
 
 }
+
