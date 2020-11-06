@@ -33,9 +33,9 @@ html{
 
 .navbar-new{
     display: flex;
-    margin: 0;
     padding: 0;
     width: 0rem;
+    margin-left: -10px;
     height: 100vh;
     background: rgb(0,26,64);
     background: linear-gradient(49deg, rgba(0,26,64,1) 0%, rgba(37,88,164,1) 54%, rgba(0,46,162,1) 100%);

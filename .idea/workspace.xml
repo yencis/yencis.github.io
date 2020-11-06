@@ -19,7 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d89828b3-9713-4c18-a52d-72b4b46acd86" name="Default Changelist" comment="" />
+    <list default="true" id="d89828b3-9713-4c18-a52d-72b4b46acd86" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/test.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project.css" beforeDir="false" afterPath="$PROJECT_DIR$/project.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,9 +34,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package.json" />
         <option value="JavaScript File" />
         <option value="HTML File" />
-        <option value="package.json" />
         <option value="CSS File" />
       </list>
     </option>
@@ -108,7 +114,13 @@
       <workItem from="1598322692794" duration="72000" />
       <workItem from="1598326242309" duration="1913000" />
       <workItem from="1598575509350" duration="11000" />
-      <workItem from="1600117455594" duration="2303000" />
+      <workItem from="1600117455594" duration="2901000" />
+      <workItem from="1600381603573" duration="102000" />
+      <workItem from="1600546976728" duration="13000" />
+      <workItem from="1602127707794" duration="503000" />
+      <workItem from="1602352156168" duration="619000" />
+      <workItem from="1604628568695" duration="4965000" />
+      <workItem from="1604639786632" duration="6809000" />
     </task>
     <servers />
   </component>
@@ -128,21 +140,9 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="805" y="311" key="FileChooserDialogImpl" timestamp="1597774981889">
+    <state x="805" y="311" key="FileChooserDialogImpl" timestamp="1604640720114">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="805" y="311" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1597774981889" />
-    <state x="854" y="202" key="SettingsEditor" timestamp="1592775523393">
-      <screen x="0" y="0" width="2048" height="1112" />
-    </state>
-    <state x="854" y="202" key="SettingsEditor/0.0.2048.1112@0.0.2048.1112" timestamp="1592775523393" />
-    <state x="734" y="155" width="579" height="801" key="find.popup" timestamp="1592774490038">
-      <screen x="0" y="0" width="2048" height="1112" />
-    </state>
-    <state x="734" y="155" width="579" height="801" key="find.popup/0.0.2048.1112@0.0.2048.1112" timestamp="1592774490038" />
-    <state x="842" y="285" key="run.anything.popup" timestamp="1592775548944">
-      <screen x="0" y="0" width="2048" height="1112" />
-    </state>
-    <state x="842" y="285" key="run.anything.popup/0.0.2048.1112@0.0.2048.1112" timestamp="1592775548944" />
+    <state x="805" y="311" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1604640720114" />
   </component>
 </project>
