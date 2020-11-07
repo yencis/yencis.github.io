@@ -212,6 +212,10 @@ body{
     display: none;
 }
 
+.mobile-button-center{
+    display: none;
+}
+
 .info{
     position: absolute;
     width: 241px;
