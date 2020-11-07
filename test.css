@@ -283,3 +283,17 @@ body{
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
     transition: 0.1s;
 }
+
+.fade-in-onload{
+    animation: fadeIn 2s;
+
+}
+
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
