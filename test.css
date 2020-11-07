@@ -90,8 +90,15 @@ body{
     background-color: var(--background-primary);
     float: left;
     transition: 0.1s;
+
     box-shadow: 0 0 5px 10px #ffffff;
 }
+
+.navbar-links a{
+    text-decoration: none;
+    color: var(--text-primary)
+}
+
 
 .button{
     height: 61px;
@@ -110,31 +117,36 @@ body{
 }
 
 .home-content{
+
     position:static;
     width: 100vw;
     height: 786px;
     background: linear-gradient(180deg, #458FFF 0%, #DFECFF 99.99%);
+    z-index: -2;
 }
 
 .home-content h1{
-    font-family: Alata;
+    font-family: Bebas Neue;
+    z-index: 3;
     font-style: normal;
     font-weight: normal;
     font-size: 100px;
-    color: var(--text-secondary)
+    color: var(--background-primary)
 }
 
 .home-content h2{
-    font-family: Poppins;
+    z-index: 3;
+    font-family: Rubik;
     font-style: normal;
     font-weight: normal;
     font-size: 45px;
     line-height: 67px;
     width: 463px;
-    color: var(--text-light)
+    color: var(--background-light)
 }
 
 .home-content p{
+    z-index: 3;
     font-family: Poppins;
     font-style: normal;
     font-weight: normal;
@@ -163,4 +175,25 @@ body{
     top: 328px;
     background: url(images/wordexe.png);
     background-size: cover;
+}
+
+.home-content-cover{
+    position: absolute;
+    width: 522px;
+    margin-left: 4%;
+    height: 786px;
+    z-index: 1;
+    background: rgba(31, 76, 140, 0.1);
+}
+
+.info{
+    position: absolute;
+    width: 241px;
+    height: 58px;
+    left: 1596px;
+    top: 598px;
+    font-family: "Bebas Neue";
+    font-size: 30px;
+    color: var(--text-secondary);
+
 }
