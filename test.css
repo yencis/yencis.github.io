@@ -132,7 +132,8 @@ body{
     z-index: -2;
 }
 
-.home-content h1{
+.hch1{
+    position:absolute; top:160px; margin-left: 5%;
     font-family: Bebas Neue;
     z-index: 3;
     font-style: normal;
@@ -141,7 +142,8 @@ body{
     color: var(--background-primary)
 }
 
-.home-content h2{
+.hch2{
+    position:absolute; top:340px; margin-left: 5%;
     z-index: 3;
     font-family: Rubik;
     font-style: normal;
@@ -152,7 +154,8 @@ body{
     color: var(--background-light)
 }
 
-.home-content p{
+.hcp{
+    position:absolute; top:520px; margin-left: 5%;
     z-index: 3;
     font-family: Rubik;
     font-style: normal;
@@ -191,6 +194,22 @@ body{
     height: 786px;
     z-index: 1;
     background: rgba(31, 76, 140, 0.1);
+}
+
+.home-content-cover-mobile-1{
+    display: none;
+}
+
+.home-content-cover-mobile-2{
+    display: none;
+}
+
+.home-content-mobile-1{
+    display: none;
+}
+
+.project-button{
+    display: none;
 }
 
 .info{

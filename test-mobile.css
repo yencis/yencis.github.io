@@ -1,7 +1,92 @@
 @media only screen and (max-device-width: 700px) {
-    body {
-        
+    .hch1{
+        top:171px;
+        font-size: 150px;
     }
 
+    .hch2{
+        width: 600px;
+        top: 395px;
+        font-size: 70px;
+        line-height: 90px;
+    }
+
+    .hcp{
+        width: 90vw;
+        top: 820px;
+        font-size: 50px;
+    }
+
+    .home-content-cover{
+        display: none;
+    }
+
+    .home-content-cover-mobile-1{
+        display: block;
+        position: absolute;
+        top: 800px;
+        width: 100vw;
+        height: 400px;
+        background: rgba(31, 76, 140, 0.1);
+    }
+
+    .home-content-cover-mobile-2{
+        display: block;
+        position: absolute;
+        top: 850px;
+        width: 100vw;
+        height: 300px;
+        background: rgba(31, 76, 140, 0.1);
+    }
+
+    .hc-ellipse{
+        display: none;
+    }
+
+    .profile{
+        display:none;
+    }
+
+    .home-content{
+        height: 1640px;
+    }
+
+    .profile-mobile{
+        position: absolute;
+        top: 301px;
+        right: 5%;
+        width: 400px;
+        height: 400px;
+        background: url(images/wordexe.jpeg);
+        background-size: cover;
+        border: 10px solid #DFECFF;
+        box-sizing: border-box;
+        box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.25);
+        border-radius: 100%;
+    }
+
+    .navbar-links{
+        font-size: 40px;
+    }
+
+    .logo-text{
+        font-size: 50px;
+    }
+
+    .home-content-mobile-1{
+        position: absolute;
+        display: block;
+        top: 1350px;
+        width: 100vw;
+        text-align: center;
+        font-size: 60px;
+        font-family: Rubik;
+        color: var(--background-medium);
+    }
+
+    .project-button{
+        position: absolute;
+        display: block;
+    }
 
 }
