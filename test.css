@@ -147,11 +147,11 @@ body{
 
 .home-content p{
     z-index: 3;
-    font-family: Poppins;
+    font-family: Rubik;
     font-style: normal;
     font-weight: normal;
     font-size: 30px;
-    line-height: 67px;
+    line-height: 47px;
     width: 463px;
     color: var(--text-light)
 }
@@ -195,5 +195,4 @@ body{
     font-family: "Bebas Neue";
     font-size: 30px;
     color: var(--text-secondary);
-
 }
