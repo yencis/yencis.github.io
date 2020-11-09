@@ -4,6 +4,7 @@
     --text-light: #0068FF;
     --background-primary: #ffffff;
     --background-medium: #458FFF;
+    --background-ternary: #6799DB;
     --background-light: #DFECFF;
     --content-primary: #2580FF;
     --content-dark: #2469CD;
@@ -128,7 +129,7 @@ body{
     position:static;
     width: 100vw;
     height: 786px;
-    background: linear-gradient(180deg, #458FFF 0%, #DFECFF 99.99%);
+    background: linear-gradient(180deg, var(--background-ternary) 0%, #DFECFF 99.99%);
     z-index: -2;
 }
 
@@ -163,7 +164,7 @@ body{
     font-size: 30px;
     line-height: 47px;
     width: 463px;
-    color: var(--text-light)
+    color: #1456B5;
 }
 
 .hc-ellipse{

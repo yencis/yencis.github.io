@@ -1,0 +1,55 @@
+.home-content-image{
+
+    position:static;
+    width: 100vw;
+    height: 766px;
+    background: linear-gradient(180deg, rgba(0, 107, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%), url(images/peregrine-blue-long.png);
+    filter: blur(3px);
+    background-size: cover;
+    z-index: -2;
+}
+
+.home-content{
+    position:static;
+    width: 100vw;
+    height: 766px;
+    z-index: -1;
+}
+
+.home-content-cover-1{
+    position: absolute;
+    top: 694px;
+    width: 100vw;
+    height: 134px;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.hc-c-text{
+    position: absolute;
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 100px;
+    line-height: 0px;
+    top: -20px;
+    color: var(--background-primary);
+    margin-left: 5%;
+}
+
+#arrow3{
+    position:absolute;
+    width: 198px;
+    height: 764px;
+    right: 5%;
+    top: 144px;
+    background: url(images/arrow3.svg);
+
+}
+
+@keyframes font-enlarge{
+    from{
+        font-size: 200px;
+    }to{
+         font-size: 100px;
+     }
+}
