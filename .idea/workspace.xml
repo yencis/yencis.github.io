@@ -20,22 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d89828b3-9713-4c18-a52d-72b4b46acd86" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/images/arrow3.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/peregrine-blue-long.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/peregrine-blue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newproject.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newstyle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/old-site/action.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classscripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/arrow4.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/arrow5.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/mnist.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old-site/projects.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/action.php" beforeDir="false" afterPath="$PROJECT_DIR$/newproject.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/email.html" beforeDir="false" afterPath="$PROJECT_DIR$/old-site/email.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/old-site/login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/old-site/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old-index-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/old-site/old-index-2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_index.html" beforeDir="false" afterPath="$PROJECT_DIR$/old_index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newproject.css" beforeDir="false" afterPath="$PROJECT_DIR$/newproject.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newproject.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-mobile.css" beforeDir="false" afterPath="$PROJECT_DIR$/test-mobile.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.css" beforeDir="false" afterPath="$PROJECT_DIR$/test.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,9 +40,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package.json" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -138,6 +131,8 @@
       <workItem from="1604683741248" duration="16159000" />
       <workItem from="1604779704918" duration="6829000" />
       <workItem from="1604864571074" duration="1466000" />
+      <workItem from="1604973648744" duration="8372000" />
+      <workItem from="1605068269485" duration="719000" />
     </task>
     <servers />
   </component>

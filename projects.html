@@ -2,126 +2,65 @@
 <html lang="en">
 <head>
     <link rel="icon" href="images/favicon.ico">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" type="text/css" href="project.css">
-    <link rel="stylesheet" href="//fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <link rel="stylesheet" type="text/css" href="newstyle.css">
+    <link rel="stylesheet" type="text/css" href="newproject.css">
+    <link rel="stylesheet" type="text/css" href="test-mobile.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
-    <title>Projects</title>
-    <script src="https://kit.fontawesome.com/eec7ae89a8.js" crossorigin="anonymous"></script>
-
+    <title>Project</title>
 </head>
-<body onscroll="update_button(300)">
-    <button class="nav-button" onclick="nav_button()"><i class="fas fa-bars"></i></button>
-    <nav class="navbar-new">
-        <ul class="navbar-nav-new">
-            <li>
-                <a href=https://github.com/yencis class="icon-item-new">
-                    <img class="birb-icon-new" src="images/bird.jpg">
-                </a>
-            </li>
-            <li class="logo">
-                <a href=https://github.com/yencis>
-                    <span class="logo-text-new">yencis</span>
-                </a>
-            </li>
-            <li class="nav-item-new">
-                <a href=index.html class="nav-link">
-                    <i class="fas fa-home"> </i>
-                    <span class="link-text">Home</span>
-                </a>
-            </li>
-            <li class="nav-item-new">
-                <a href=about.html class="nav-link">
-                    <i class="fas fa-user"> </i>
-                    <span class="link-text"> About</span>
-                </a>
-            </li>
-            <li class="nav-item-new">
-                <a href=projects.html class="nav-link">
-                    <i class="far fa-file-code"></i>
-                    <span class="link-text"> Projects</span>
-                </a>
-            </li>
-            <li class="nav-item-new">
-                <a href=old-site/login.html class="nav-link">
-                    <i class="fas fa-sign-in-alt"></i>
-                    <span class="link-text"> Login</span>
-                </a>
-            </li>
-        </ul>
-    </nav>
-    <span class="yvalues">300</span>
-    <main class="project">
-        <h1 class="fade-in-onload">Projects</h1>
-        <p class="fade-in-onload">The following are all projects on my GitHub.<br> JavaScript ones are playable, but Java ones must be downloaded.</p>
-
-        <div class="project-links">
-
-            <div class="flex-item">
-                <button class="info-button" onclick="info_button(0)"><i class="fas fa-info-circle">&nbsp;&nbsp;<i class="fab fa-js"></i></i></button>
-                <div class="info-box">
-                    <span class="info-text">A maze generator <br>made from JS (w/ friend)<br><a href="https://github.com/mysticworks/MazeGenerator">Github Link</a></span>
-                </div>
-                <a href="mazesimulate-js/src/main.html" class="the-link">
-                    <div id="maze-js">
-                    </div>
-                </a>
-            </div>
-
-            <div class="flex-item">
-                <button class="info-button" onclick="info_button(1)"><i class="fas fa-info-circle">&nbsp;&nbsp;<i class="fab fa-java"></i></i></i></button>
-                <div class="info-box">
-                    <span class="info-text">A maze generator <br>made from Java<br><a href="https://github.com/yencis/MazeSimulator3000-Java">Github Link</a></span>
-                </div>
-                <a href=# class="the-link">
-                    <div id="maze-java">
-                    </div>
-                </a>
-            </div>
-
-            <div class="flex-item">
-                <button class="info-button" onclick="info_button(2)"><i class="fas fa-info-circle">&nbsp;&nbsp;<i class="fab fa-java"></i></i></i></button>
-                <div class="info-box">
-                    <span class="smaller-text info-text" >A program <br>made from Java<br>that finds the shortest<br>path between two<br>Wikipedia links (<a href="https://en.wikipedia.org/wiki/Wikipedia:Wiki_Game">Wiki Game</a>)<br><a href="https://github.com/yencis/MazeSimulator3000-Java">Github Link</a></span>
-                </div>
-                <a href=# class="the-link">
-                    <div id="wiki-racer">
-                    </div>
-                </a>
-            </div>
-
-            <div class="flex-item">
-                <button class="info-button" onclick="info_button(3)"><i class="fas fa-info-circle">&nbsp;&nbsp;<i class="fab fa-js"></i></i></i></button>
-                <div class="info-box">
-                    <span class="smaller-text info-text" >A simple image recognition<br>project using MNIST dataset.<br>Trained with Tensorflow/Kera<br> and Python.<br>Implemented with JS.<br><a href="https://github.com/yencis/handwritten-digit-recognition">Github Link</a></span>
-                </div>
-                <a href="handwritten-digit-recognition/digit-recognition/index.html" class="the-link">
-                    <div id="handwritten-digit">
-                    </div>
-                </a>
-            </div>
-    <!--
-            <div class="flex-item">
-                <img class="test" src = "images/bird.jpg">
-            </div>-->
+<body>
+    <div class="top-bar">
+        <div class="logo">
+            <div class="logo-image"></div>
+            <div class="logo-text">yencis</div>
         </div>
-
-        <p class="project-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec finibus mauris eget elit aliquet lacinia. Fusce ut augue leo. Vestibulum non congue erat. Nulla facilisi. Aliquam molestie odio eu ex placerat dictum. Proin quis finibus odio. Phasellus turpis sapien, consequat a urna ultrices, eleifend consectetur velit. Pellentesque interdum risus eros, vel porttitor magna mollis euismod. Praesent ac mi pulvinar, posuere justo ut, consectetur augue.
-
-            Pellentesque sit amet dictum nisl, et tempor leo. Sed pulvinar varius quam, eu tempor nulla iaculis at. Suspendisse at enim sed nibh ullamcorper vulputate eget ut metus. Morbi interdum accumsan orci condimentum ullamcorper. Integer ut tincidunt sapien, quis ultrices diam. Vivamus hendrerit, sapien a cursus pulvinar, dolor neque maximus metus, sed pulvinar ex lacus at erat. Suspendisse potenti. Aenean venenatis tortor at nisi porttitor cursus. Vivamus metus leo, accumsan in faucibus sed, finibus elementum elit. Proin at magna non nulla hendrerit aliquam. Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut sed metus luctus, blandit lectus ut, rhoncus lectus. Mauris sollicitudin ligula vel dolor tempus aliquam. Ut rutrum facilisis tortor vel consectetur. Donec congue nisl et lorem congue, ut mollis lacus semper. Sed magna augue, consequat ac luctus porta, placerat sed nisi.
-
-            Proin ultrices mattis velit sed suscipit. Ut non risus lobortis est imperdiet viverra ut vel sapien. Praesent hendrerit aliquet euismod. Phasellus consectetur eu est ut ultrices. Pellentesque luctus blandit euismod. Morbi porta diam felis, ac dictum mauris hendrerit quis. Sed efficitur neque in condimentum finibus. Maecenas mauris dolor, finibus a semper vitae, rutrum quis libero. Donec eget magna vitae nunc mollis eleifend. In bibendum auctor dolor at bibendum. Nam ut tortor vulputate, faucibus est id, venenatis sapien. Aliquam convallis hendrerit risus a interdum. Suspendisse potenti. Nulla facilisi. Nunc vel luctus metus, et finibus quam.
-
-            Nunc congue purus nec metus malesuada, eget placerat neque pretium. Quisque maximus malesuada felis vel auctor. Suspendisse egestas tincidunt bibendum. Sed eu dapibus lacus. Morbi sollicitudin sapien non consectetur tincidunt. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Quisque imperdiet sem nibh, eu vehicula purus ornare id. Mauris tristique in enim nec accumsan. Curabitur iaculis sollicitudin malesuada. Mauris nec ullamcorper risus. Cras commodo sem ex, vel mollis urna tempor id. Duis quam urna, elementum eu blandit vel, tincidunt vitae nisi. Donec sit amet magna vitae velit convallis tempor. Duis varius neque eget sapien laoreet, sit amet porta dolor pharetra. Sed lobortis felis lorem, eget ultrices sapien ullamcorper facilisis.
-
-            Nullam sollicitudin turpis a diam pulvinar, id lacinia purus facilisis. In hac habitasse platea dictumst. Nunc eget suscipit sapien. Quisque eget magna porttitor, sagittis magna vitae, cursus justo. Maecenas quis iaculis nibh, nec accumsan tellus. Donec condimentum dui et magna gravida, id pretium velit mattis. Duis dignissim sem sed augue mollis, vitae finibus orci eleifend.</p>
-
-        <div id="triangle-topleft-bg"></div>
-        <div id="grad-grid"></div>
-        <div id="triangle-bottomleft-bg"></div>
-
-    </main>
-    <script src="nav-bar-script.js"></script>
-    <script src="scripts.js"></script>
+        <div class="navbar">
+            <div class="navbar-links"><a href="index.html">Home</a></div>
+            <div class="navbar-links"><a href="about.html">About</a></div>
+            <div class="navbar-links"><a href="projects.html">Projects</a></div>
+            <!--<button class="navbar-links button">Button</button>-->
+        </div>
+    </div>
+    <div style="position:static; height:144px"></div>
+    <div class="home-content-image">
+    </div>
+    <div class="home-content">
+        <div class="home-content-cover-1">
+            <p class="hc-c-text">Projects</p>
+        </div>
+        <div id="arrow3"></div>
+        <div id="arrow4" onclick="window.location.href='#projects'"></div>
+        <div class="project-links" id="projects">
+            <div class="project-link-1 fade-in-onscroll" style="background: url(images/mnist.png);background-size: cover;">
+                <div class="pl1-tint"></div>
+                <div class="pl1-title">Machine Learning: <br> Digit Recognition</div>
+                <div class="pl1-info">A simple image recognition program trained with MNIST dataset using Tensorflow/Keras and Python. <br>Implemented with JS. </div>
+                <div class="pl1-button" onclick="window.location.href='./handwritten-digit-recognition/digit-recognition/index.html'">Check Out</div>
+                <div class="pl1-arrow" onclick="window.location.href='./handwritten-digit-recognition/digit-recognition/index.html'"></div>
+            </div>
+            <div class="project-link-placeholder fade-in-onscroll">
+                <div class="plp-text">Coming Soon</div>
+            </div>
+            <div class="project-link-placeholder fade-in-onscroll">
+                <div class="plp-text">Coming Soon</div>
+            </div>
+            <div class="project-link-placeholder fade-in-onscroll">
+                <div class="plp-text">Coming Soon</div>
+            </div>
+            <!--
+            <div class="project-link-2 fade-in-onscroll"></div>
+            <div class="project-link-1 fade-in-onscroll"></div>
+            <div class="project-link-1 fade-in-onscroll"></div>
+            <div class="project-link-2 fade-in-onscroll"></div>
+            -->
+    </div>
+    </div>
 </body>
+<script src="classscripts.js"></script>
 </html>
