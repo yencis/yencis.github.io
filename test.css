@@ -191,13 +191,14 @@ body{
 }
 
 .home-image{
-    height:786px;
+    height:797px;
     width: 805px;
     width: 35vw;
     position: absolute;
     right: 0;
     z-index: 1;
     background: url(images/mainpagedesign.png);
+    background-size: cover;
 }
 
 .home-content-cover{
@@ -242,7 +243,7 @@ body{
 }
 
 .desktop-arrow{
-    z-index: 10;
+    z-index: 5;
     position: absolute;
     display: block;
     width: 70px;
@@ -286,7 +287,107 @@ body{
     cursor: pointer;
 }
 
+.home-2{
+    height: 500px;
+    width: 100vw;
+    background-color: white;
+    margin-top:786px;
+    position:absolute;
+}
 
+.home-3{
+    height:1000px;
+    width: 100vw;
+    background-color: #ECF4FF;
+    margin-top: 1400px;
+    position: absolute;
+    z-index: -1;
+}
+
+.greeting{
+    /* Hi, I am Yencis */
+    margin-top: 100px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 50px;
+    /* or 125% */
+
+    text-align: center;
+
+    color: #1658B9;
+}
+
+.home-text{
+    margin-top: 8vh;
+    margin-left: 14vw;
+    margin-right: 14vw;
+    font-family: 'Rubik',sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 50px;
+    /* or 125% */
+
+    text-align: center;
+
+    color: #1658B9;
+}
+
+.graph-title{
+    position: absolute;
+    margin-top: 10vh;
+    margin-left: 13vw;
+    width: 500px;
+    font-family: 'Rubik',sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 50px;
+    line-height: 50px;
+    /* or 125% */
+
+    text-align: center;
+
+    color: #608BC7;
+}
+
+.section-title{
+    position: absolute;
+    margin-top: 10vh;
+    margin-left: 60vw;
+    width: 30vw;
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-size: 60px;
+    line-height: 50px;
+    /* or 125% */
+
+    text-align: left;
+
+    color: #2469CD;
+}
+
+.section-text{
+    position: absolute;
+    margin-top: 22vh;
+    margin-left: 60vw;
+    width: 30vw;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-size: 35px;
+    line-height: 50px;
+    text-align:left;
+    /* or 125% */
+
+
+    color: #2580FF;
+}
+
+.section-text a{
+    color:#3068B7;
+    text-decoration: none;
+}
 
 #arrow-text{
     position: absolute;
@@ -318,6 +419,7 @@ body{
     height: 302px;
     left: 0px;
     top: 950px;
-
+    z-index: -3;
+    margin-top: 500vh;
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0%, rgba(223, 236, 255, 0.5) 100%), #FFFFFF;
 }

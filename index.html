@@ -5,12 +5,15 @@
 
     <link rel="stylesheet" type="text/css" href="test.css">
     <link rel="stylesheet" type="text/css" href="test-mobile.css">
-    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <script src="https://d3js.org/d3.v6.min.js"></script>
     <meta charset="UTF-8">
     <title>Home</title>
+
 </head>
 <body>
     <div class="top-bar">
@@ -47,6 +50,23 @@
             <div id="arrow-text">Projects</div>
         </div>
         <!--<div class="info">Aditya "punjabi" Kakha<br>IGL for ZRC</div>-->
+        <div class="home-2">
+            <p class="greeting"><b>Hi, I am Yencis</b></p>
+            <p class="home-text">I program and occasionally do web developement.<br>
+                I like to learn new things and find ways to apply what I learn through fun projects. I am most proficient at Java, but I have coding experience in Python, JS, C#, HTML and CSS.
+            </p>
+        </div>
+        <div class="home-3">
+            <p class="graph-title">Language Distribution</p>
+            <p class="section-title">PROJECTS</p>
+            <p class="section-text">My projects start from an idea of something I want to create that I may not already know how to do, such as <a href="">creating a handwritten digit recognition program</a>.
+            <br><br>
+                To the left is a distribution of languages in projects.
+            </p>
+        </div>
+        <svg style="margin-top:1500px;z-index: 5;height: 1000px;width: 50vw;margin-left:5vw;position: absolute"></svg>
+
+
     </div>
     <div class="footer">
 
@@ -56,5 +76,6 @@
         2e1e
     </p>
     -->
+    <script src="chart.js"></script>
 </body>
 </html>
