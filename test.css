@@ -166,7 +166,7 @@ body{
     font-size: 30px;
     line-height: 47px;
     width: 463px;
-    color: var(--text-dark);
+    color: var(--background-primary);
 }
 
 .hc-ellipse{
