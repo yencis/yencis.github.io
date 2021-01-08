@@ -304,6 +304,95 @@ body{
     z-index: -1;
 }
 
+.home-4{
+    width: 100vw;
+    height: 800px;
+    position: absolute;
+    margin-top: 2400px;
+    background-color: white;
+    z-index: -1;
+}
+
+.home-4-title{
+    margin-left: 7vw;
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 60px;
+
+    color: #2469CD;
+
+}
+
+.home-4-desc{
+    margin-left: 7vw;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 30px;
+    width: 30vw;
+    color: #2580FF;
+
+}
+
+.msg-prompt{
+    font-family: Consolas;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+    border: 0;
+    color: #458FFF;
+}
+
+
+.home-4-name{
+    position: absolute;
+    width: 601px;
+    height: 55px;
+    left: 7vw;
+    z-index: 1;
+    background: #DFECFF;
+}
+
+.home-4-email{
+    position: absolute;
+    width: 601px;
+    height: 55px;
+    left: 7vw;
+    z-index: 1;
+    background: #DFECFF;
+    margin-top: 70px;
+}
+
+.home-4-message{
+    position: absolute;
+    width: 601px;
+    height: 221px;
+    left: 7vw;
+    z-index: 1;
+    background: #DFECFF;
+    margin-top: 140px;
+}
+
+.home-4-button{
+    position: absolute;
+    width: 171px;
+    height: 50px;
+    margin-top: 400px;
+    left:7vw;
+    border: 0;
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 36px;
+    color:white;
+    background: #4B94FF;
+}
+
 .greeting{
     /* Hi, I am Yencis */
     margin-top: 100px;
@@ -420,6 +509,6 @@ body{
     left: 0px;
     top: 950px;
     z-index: -3;
-    margin-top: 500vh;
+    margin-top: 250vh;
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0%, rgba(223, 236, 255, 0.5) 100%), #FFFFFF;
 }
