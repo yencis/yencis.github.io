@@ -350,7 +350,7 @@ body{
 
 .home-4-name{
     position: absolute;
-    width: 601px;
+    width: 30vw;
     height: 55px;
     left: 7vw;
     z-index: 1;
@@ -359,7 +359,7 @@ body{
 
 .home-4-email{
     position: absolute;
-    width: 601px;
+    width: 30vw;
     height: 55px;
     left: 7vw;
     z-index: 1;
@@ -369,7 +369,7 @@ body{
 
 .home-4-message{
     position: absolute;
-    width: 601px;
+    width: 30vw;
     height: 221px;
     left: 7vw;
     z-index: 1;
@@ -392,6 +392,51 @@ body{
     color:white;
     background: #4B94FF;
 }
+
+.home-4-button:hover{
+    background-color: #75aeff;
+    cursor: pointer;
+}
+
+.contacts{
+    position: absolute;
+    margin-top: -310px;
+    width: 40vw;
+    margin-left: 50vw;
+    height: 700px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction:column;
+    flex-wrap: wrap;
+}
+
+.contact-links{
+    width: 40vw;
+    height: 60px;
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+}
+
+.contact-links p{
+    margin-top: 15px;
+    width:35vw;
+    height: 40px;
+    margin-left: 40px;
+    font-family: Consolas;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 41px;
+    color: #458FFF;
+
+}
+
+.contact-links i{
+    font-size: 85px;
+    color:#2469CD;
+}
+
 
 .greeting{
     /* Hi, I am Yencis */
@@ -444,7 +489,7 @@ body{
 .section-title{
     position: absolute;
     margin-top: 10vh;
-    margin-left: 60vw;
+    margin-left: 65vw;
     width: 30vw;
     font-family: 'Bebas Neue';
     font-style: normal;
@@ -460,7 +505,7 @@ body{
 .section-text{
     position: absolute;
     margin-top: 22vh;
-    margin-left: 60vw;
+    margin-left: 65vw;
     width: 30vw;
     font-family: 'Rubik';
     font-style: normal;
