@@ -1,20 +1,17 @@
 [
 	{
 		"name": "AvoCbt",
-		"description": "AvoCbt (Avo-Ciabatta) is a world-leading source engine for cosmological simulations.",
-		"images": "http://irepo.primecp.com/2015/05/219408/Ciabatta-Toast-with-Avocado-Butter-3062-HiRes_ExtraLarge1000_ID-982790.jpg?v=982790",
-		"links": "google.com"
+		"description": "Cosmo Sims",
+		"images": "http://irepo.primecp.com/2015/05/219408/Ciabatta-Toast-with-Avocado-Butter-3062-HiRes_ExtraLarge1000_ID-982790.jpg?v=982790"
 	},
 	{
 		"name": "CbtSoup",
-		"description": "Our new web-scraping library for Ciabatta",
-		"images": "https://img.sunset02.com/sites/default/files/image/recipes/su/11/12/tuscan-kale-white-bean-ciabatta-soup-su-x.jpg",
-		"links": "google.com"
+		"description": "Web-Scraping",
+		"images": "https://img.sunset02.com/sites/default/files/image/recipes/su/11/12/tuscan-kale-white-bean-ciabatta-soup-su-x.jpg"
 	},
 	{
 		"name": "CloudCbt",
-		"description": "High-speed reliable cloud-based web-hosting for Ciabatta",
-		"images": "https://bigoven-res.cloudinary.com/image/upload/t_recipe-1280/ciabatta-bread-recipe-3.jpg",
-		"links": "google.com"
+		"description": "Cloud Hosting",
+		"images": "https://bigoven-res.cloudinary.com/image/upload/t_recipe-1280/ciabatta-bread-recipe-3.jpg"
 	}
 ]
