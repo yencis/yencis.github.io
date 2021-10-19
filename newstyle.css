@@ -1,7 +1,9 @@
 :root{
     --text-primary: #000000;
     --text-secondary: #1F4C8C;
+    --text-accent: #2469CD;
     --text-light: #0068FF;
+    --text-highlight: #4491FF;
     --background-primary: #ffffff;
     --background-medium: #458FFF;
     --background-ternary: #6799DB;

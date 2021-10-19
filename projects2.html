@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="images/favicon.ico">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <link rel="stylesheet" type="text/css" href="newstyle.css">
+    <link rel="stylesheet" type="text/css" href="newproject.css">
+    <link rel="stylesheet" type="text/css" href="projects2.css">
+    <link rel="stylesheet" type="text/css" href="test-mobile.css">
+    <script src="https://kit.fontawesome.com/eec7ae89a8.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>Project</title>
+</head>
+<body>
+    
+    <div class="top-bar">
+        <div class="logo">
+            <div class="logo-image"></div>
+            <div class="logo-text">yencis</div>
+        </div>
+        <div class="navbar">
+            <div class="navbar-links"><a href="index.html">Home</a></div>
+            <div class="navbar-links"><a href="about.html">About</a></div>
+            <div class="navbar-links"><a href="projects.html">Projects</a></div>
+            <!--<button class="navbar-links button">Button</button>-->
+        </div>
+    </div>
+    <div style="width:100%;background-color:aqua;height:144px;position:relative;margin-bottom:0;"></div>
+    <div class="content" style="height:1140px;background-color:var(--background-primary);width:100%;display:flex;flex-direction:column">
+        <h1 style="margin-left:10vw">Projects</h1>
+        <div class="text-content" style="height:500px;width:90%;display:flex;justify-content:space-between">
+            
+            <p style="width:55%;background-color:white">Various projects I’ve created.<br>
+                 Each preview contains a bit of information on the project,
+                  but you can click on the preview to access it 
+                  (or GitHub if it’s not online).</p>
+            <div style="margin-right:10vw;margin-top:5vh;width:288px;height:200px;background-image:url(images/checklist.svg);background-size:contain;">
+            </div>
+        </div>
+        <b><h2 style="margin-left:10vw">About this website</h2></b>
+        <div class="text-content" style="height:500px;width:90%;display:flex;justify-content:space-between">
+            
+            <p style="width:55%;background-color:white">This website design you see here is actually 
+                the fourth version. 
+                You can still find the three original versions 
+                if you are sneaky enough.
+                The layout is brand new and the color
+                theme has been altered slightly.</p>
+            <div id="palette" style="margin-right:5vw;margin-top:-10vh;display:flex;flex-direction: column;justify-content: space-evenly;">
+                <div class="color_row">
+                    <div class="paint_icon" style="background-image:url(images/color1.svg)"></div>
+                    <span class="paint_value">#ECF4FF</span>
+                    <button class="paint_copy" onclick="copy_text('ECF4FF')"><i class="fas fa-copy"></i></button>
+                </div>
+                <div class="color_row">
+                    <div class="paint_icon" style="background-image:url(images/color2.svg)"></div>
+                    <span class="paint_value">#4491FF</span>
+                    <button class="paint_copy" onclick="copy_text('#4491FF')"><i class="fas fa-copy"></i></button>
+                </div>
+                <div class="color_row">
+                    <div class="paint_icon" style="background-image:url(images/color3.svg)"></div>
+                    <span class="paint_value">#2469CD</span>
+                    <button class="paint_copy" onclick="copy_text('#2469CD')"><i class="fas fa-copy"></i></button>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <div class="search_bar">
+            
+    </div>
+    <div id="project_cards">
+        <div class="project_card" style="background-image:url(images/mnist.png)">
+            <div class="grey-box"></div>
+            <h3>DIGIT RECOGNITION</h3>
+			<h4>PYTHON+ML</h4> 
+        </div>
+    </div>
+    <script src="functions.js"></script>
+    <script src="classscripts.js"></script>
+</body>
+
+</html>
