@@ -5,12 +5,12 @@
 		"images": "../images/mnist.png"
 	},
 	{
-		"name": "Maze Generator JS",
+		"name": "Maze Gen JS",
 		"description": "Search Algorithms",
 		"images": "../images/mazejs.jpg"
 	},
 	{
-		"name": "Maze Generator Java",
+		"name": "Maze Gen Java",
 		"description": "Search Algorithms",
 		"images": "../images/mazejava.png"
 	}
