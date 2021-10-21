@@ -1,17 +1,17 @@
 [
 	{
-		"name": "AvoCbt",
-		"description": "Cosmo Sims",
-		"images": "http://irepo.primecp.com/2015/05/219408/Ciabatta-Toast-with-Avocado-Butter-3062-HiRes_ExtraLarge1000_ID-982790.jpg?v=982790"
+		"name": "Digit Recognition",
+		"description": "Python+JS+ML",
+		"images": "../images/mnist.png"
 	},
 	{
-		"name": "CbtSoup",
-		"description": "Web-Scraping",
-		"images": "https://img.sunset02.com/sites/default/files/image/recipes/su/11/12/tuscan-kale-white-bean-ciabatta-soup-su-x.jpg"
+		"name": "Maze Generator JS",
+		"description": "Search Algorithms",
+		"images": "../images/mazejs.jpg"
 	},
 	{
-		"name": "CloudCbt",
-		"description": "Cloud Hosting",
-		"images": "https://bigoven-res.cloudinary.com/image/upload/t_recipe-1280/ciabatta-bread-recipe-3.jpg"
+		"name": "Maze Generator Java",
+		"description": "Search Algorithms",
+		"images": "../images/mazejava.png"
 	}
 ]
