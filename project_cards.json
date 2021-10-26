@@ -22,5 +22,23 @@
 		"description": "I LOVE rUSHIa!!!",
 		"images": "https://pbs.twimg.com/media/FB0e3vyUUAEVFOG?format=jpg&name=medium",
 		"url": "https://twitter.com/uruharushia"
+	},
+	{
+		"name": "I want Hu tao",
+		"description": "to step on me",
+		"images": "../images/whotao.png",
+		"url": "https://www.pcgamer.com/genshin-impact-hu-tao-build-banner-materials/"
+	},
+	{
+		"name": "amongus",
+		"description": "lookin sus who can we trust",
+		"images": "https://i1.sndcdn.com/artworks-PctSj7qJOXILUR9T-QTlSIA-t500x500.jpg",
+		"url": "https://soundcloud.com/user-967754534/amogus-feat-liltagliagole"
+	},
+	{
+		"name": "kazuha",
+		"description": "kazuha",
+		"images": "../images/kazuha.jpg",
+		"url": ""
 	}
 ]
