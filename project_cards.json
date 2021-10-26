@@ -2,21 +2,25 @@
 	{
 		"name": "Digit Recognition",
 		"description": "Python+JS+ML",
-		"images": "../images/mnist.png"
+		"images": "../images/mnist.png",
+		"url": ""
 	},
 	{
 		"name": "Maze Gen JS",
 		"description": "Search Algorithms",
-		"images": "../images/mazejs.jpg"
+		"images": "../images/mazejs.jpg",
+		"url": ""
 	},
 	{
 		"name": "Maze Gen Java",
 		"description": "Search Algorithms",
-		"images": "../images/mazejava.png"
+		"images": "../images/mazejava.png",
+		"url": ""
 	},
 	{
 		"name": "URUHA RUSHIA <3",
 		"description": "I LOVE rUSHIa!!!",
-		"images": "https://pbs.twimg.com/media/FB0e3vyUUAEVFOG?format=jpg&name=medium"
+		"images": "https://pbs.twimg.com/media/FB0e3vyUUAEVFOG?format=jpg&name=medium",
+		"url": "https://twitter.com/uruharushia"
 	}
 ]
