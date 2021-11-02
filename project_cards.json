@@ -3,42 +3,49 @@
 		"name": "Digit Recognition",
 		"description": "Python+JS+ML",
 		"images": "../images/mnist.png",
-		"url": ""
+		"url": "",
+		"tags": ["python","js","ml","machine learning","ai","mnist","interactive"]
 	},
 	{
 		"name": "Maze Gen JS",
 		"description": "Search Algorithms",
 		"images": "../images/mazejs.jpg",
-		"url": ""
+		"url": "",
+		"tags": ["algorithms","js","interactive","searching"]
 	},
 	{
 		"name": "Maze Gen Java",
 		"description": "Search Algorithms",
 		"images": "../images/mazejava.png",
-		"url": ""
+		"url": "",
+		"tags": ["algorithms","java","searching"]
 	},
 	{
 		"name": "URUHA RUSHIA <3",
 		"description": "I LOVE rUSHIa!!!",
 		"images": "https://pbs.twimg.com/media/FB0e3vyUUAEVFOG?format=jpg&name=medium",
-		"url": "https://twitter.com/uruharushia"
+		"url": "https://twitter.com/uruharushia",
+		"tags": ["kawaii"]
 	},
 	{
 		"name": "I want Hu tao",
 		"description": "to step on me",
 		"images": "../images/whotao.png",
-		"url": "https://www.pcgamer.com/genshin-impact-hu-tao-build-banner-materials/"
+		"url": "https://www.pcgamer.com/genshin-impact-hu-tao-build-banner-materials/",
+		"tags": ["crazy","mother","fucker"]
 	},
 	{
 		"name": "amongus",
 		"description": "lookin sus who can we trust",
 		"images": "https://i1.sndcdn.com/artworks-PctSj7qJOXILUR9T-QTlSIA-t500x500.jpg",
-		"url": "https://soundcloud.com/user-967754534/amogus-feat-liltagliagole"
+		"url": "https://soundcloud.com/user-967754534/amogus-feat-liltagliagole",
+		"tags": ["sus"]
 	},
 	{
 		"name": "kazuha",
 		"description": "kazuha",
 		"images": "../images/kazuha.jpg",
-		"url": ""
+		"url": "",
+		"tags": ["twitter"]
 	}
 ]
