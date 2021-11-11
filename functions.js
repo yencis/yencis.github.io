@@ -35,7 +35,7 @@ function bindItem(item) {
 
 async function fetchData(){
 	
-	const response = await fetch('http://yencis.github.io/project_cards.json')
+	const response = await fetch('https://yencis.github.io/project_cards.json')
 	const json = await response.json()
 	console.log(json);
 	data = json;
