@@ -1,0 +1,25 @@
+<!--2D Gravity Simulation created by yencis on Github-->
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8" />
+    <title>2D Gravity Simulation</title>
+    <script data-main="disjointSet" src="scripts/require.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<html lang=en>
+    <p>Gravity Sim</p>
+    <body>
+        <canvas id="canvas" width="500" height="500">
+        </canvas>
+        <input class="text_input" id="s_mass" type="text" placeholder="mass">
+        <input class="text_input" id="s_x" type="text" placeholder="x">
+        <input class="text_input" id="s_y" type="text" placeholder="y">
+        <input class="text_input" id="s_vx" type="text" placeholder="initial velocity x">
+        <input class="text_input" id="s_vy" type="text" placeholder="initial velocity y">
+        <button id="s_button" onclick="add_mass()">Add mass</button>
+        <button id="play_button" onclick="toggle_sim()">Play/Pause</button>
+        <script src="disjointSet.js"></script>
+        <script src="index.js"></script>
+    </body>
+</html>

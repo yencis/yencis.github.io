@@ -2,8 +2,19 @@
     --color_1: #ECF4FF;
     --color_15: #DFECFF;
     --color_2: #4491ff;
+    --color_25: #C3DCFF;
+    --color_25_dark: #a7c1e6;
     --color_3: #2469cd;
 }
+
+::placeholder{
+    color: var(--color_3);
+}
+
+::-ms-input-placeholder { 
+    color: var(--color_3);
+   }
+
 .content{
     position: relative;
     background-color: red;
@@ -116,9 +127,40 @@ h2{
     margin-top: 20vh;
     width:100%;
     height:200px;
-    background-color: red;
+    background-color: var(--color_1);
     padding-bottom: 0px;
     margin-bottom: 0px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 10vh;
+}
+
+.text_input{
+    border-radius: 20px;
+    border: none;
+    background-color: var(--color_25);
+    height: 4vw;
+    width: 20vw;
+    margin-left: 10vw;
+    box-shadow: inset 0px 10px 10px rgba(35, 95, 179, 0.15);
+    color: var(--color_3);
+    font-size: 2vw;
+    outline: none;
+}
+
+.search_button{
+    outline: none;
+    background: none; 
+    border: none;
+    color: var(--color_25_dark);
+    width: 4vw;
+    height: 4vw;
+    font-size: 2vw;
+    margin-left: 1vw;
+}
+
+.search_button:hover{
+    cursor: pointer;
 }
 
 #project_cards{
@@ -138,6 +180,7 @@ h2{
     height: 15.4vw;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     background-size: cover;
+    transition: transform .2s;
 }
 
 .project_card h3{
@@ -172,4 +215,26 @@ h2{
     position: absolute;
     margin-top: 9.4vw;
     background: rgba(0, 0, 0, 0.3);
+}
+
+.project_card:hover{
+    transform: scale(1.05);
+    filter: drop-shadow(5px -5px 5px rgba(46, 46, 46, 0.25)) drop-shadow(-5px 5px 5px rgba(92, 92, 92, 0.25)) drop-shadow(5px 5px 5px rgba(105, 105, 105, 0.25)) drop-shadow(-5px -5px 5px rgba(49, 49, 49, 0.25));}
+
+.project_button{
+    background: #C3DCFF;
+    box-shadow: -3px -4px 10px 5px rgba(229, 240, 255, 0.5),inset 0px -4px 10px rgba(66, 136, 235, 0.25), inset 0px 6px 15px 2px #E1EDFF;
+    border-radius: 33px;
+    height: 4.1vw;
+    width: 6vw;
+    border: none;
+    margin-left:2vw;
+    color: var(--color_3);
+    font-size: 2vw;
+    font-family: Rubik;
+}
+
+.project_button:hover{
+    cursor: pointer;
+    filter: brightness(90%);
 }

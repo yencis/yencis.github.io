@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="icon" href="images/favicon.ico">
+    <link rel="icon" href="../images/favicon.ico">
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
-    <link rel="stylesheet" type="text/css" href="newstyle.css">
-    <link rel="stylesheet" type="text/css" href="newproject.css">
+    <link rel="stylesheet" type="text/css" href="../newstyle.css">
+    <link rel="stylesheet" type="text/css" href="../newproject.css">
     <link rel="stylesheet" type="text/css" href="projects2.css">
-    <link rel="stylesheet" type="text/css" href="test-mobile.css">
+    <link rel="stylesheet" type="text/css" href="../test-mobile.css">
     <script src="https://kit.fontawesome.com/eec7ae89a8.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
@@ -24,22 +24,22 @@
             <div class="logo-text">yencis</div>
         </div>
         <div class="navbar">
-            <div class="navbar-links"><a href="index.html">Home</a></div>
-            <div class="navbar-links"><a href="about.html">About</a></div>
-            <div class="navbar-links"><a href="projects.html">Projects</a></div>
+            <div class="navbar-links"><a href="../index.html">Home</a></div>
+            <div class="navbar-links"><a href="../about.html">About</a></div>
+            <div class="navbar-links"><a href="index.html">Projects</a></div>
             <!--<button class="navbar-links button">Button</button>-->
         </div>
     </div>
     <div style="width:100%;background-color:aqua;height:144px;position:relative;margin-bottom:0;"></div>
-    <div class="content" style="height:1140px;background-color:var(--background-primary);width:100%;display:flex;flex-direction:column">
+    <div class="content" style="visibility:hidden;height:1140px;background-color:var(--background-primary);width:100%;display:flex;flex-direction:column">
         <h1 style="margin-left:10vw">Projects</h1>
-        <div class="text-content" style="height:500px;width:90%;display:flex;justify-content:space-between">
+        <div class="text-content" style="height:500px;width:95%;display:flex;justify-content:space-between">
             
-            <p style="width:55%;background-color:white">Various projects I’ve created.<br>
+            <p style="width:53%;background-color:white">Various projects I’ve created.<br>
                  Each preview contains a bit of information on the project,
                   but you can click on the preview to access it 
                   (or GitHub if it’s not online).</p>
-            <div style="margin-right:10vw;margin-top:5vh;width:288px;height:200px;background-image:url(images/checklist.svg);background-size:contain;">
+            <div style="margin-right:10vw;margin-top:-5vh;width:31.68vw;height:22.0vw;background-image:url(../images/checklist.svg);background-size:cover;">
             </div>
         </div>
         <b><h2 style="margin-left:10vw">About this website</h2></b>
@@ -53,17 +53,17 @@
                 theme has been altered slightly.</p>
             <div id="palette" style="margin-right:5vw;margin-top:-10vh;display:flex;flex-direction: column;justify-content: space-evenly;">
                 <div class="color_row">
-                    <div class="paint_icon" style="background-image:url(images/color1.svg)"></div>
+                    <div class="paint_icon" style="background-image:url(../images/color1.svg)"></div>
                     <span class="paint_value">#ECF4FF</span>
                     <button class="paint_copy" onclick="copy_text('ECF4FF')"><i class="fas fa-copy"></i></button>
                 </div>
                 <div class="color_row">
-                    <div class="paint_icon" style="background-image:url(images/color2.svg)"></div>
+                    <div class="paint_icon" style="background-image:url(../images/color2.svg)"></div>
                     <span class="paint_value">#4491FF</span>
                     <button class="paint_copy" onclick="copy_text('#4491FF')"><i class="fas fa-copy"></i></button>
                 </div>
                 <div class="color_row">
-                    <div class="paint_icon" style="background-image:url(images/color3.svg)"></div>
+                    <div class="paint_icon" style="background-image:url(../images/color3.svg)"></div>
                     <span class="paint_value">#2469CD</span>
                     <button class="paint_copy" onclick="copy_text('#2469CD')"><i class="fas fa-copy"></i></button>
                 </div>
@@ -72,17 +72,22 @@
         
     </div>
     <div class="search_bar">
-            
+        <input class="text_input" id="search" type="text" placeholder="  search">
+        <button class="search_button" onclick="search_with_query()"><i class="fas fa-search"></i></button>
+        <button class="project_button" onclick="clear_query()">All</button>
+        <button class="project_button" style="width:10vw;" onclick="search_with_tags('python')">Python</button>
+        <button class="project_button" style="width:12vw;" onclick="search_with_tags('js')">JavaScript</button>
     </div>
     <div id="project_cards">
-        <div class="project_card" style="background-image:url(images/mnist.png)">
+        <div class="project_card" style="background-image:url(../images/mnist.png)">
             <div class="grey-box"></div>
             <h3>DIGIT RECOGNITION</h3>
 			<h4>PYTHON+ML</h4> 
         </div>
     </div>
-    <script src="functions.js"></script>
-    <script src="classscripts.js"></script>
+    <script src="https://rawgit.com/farzher/fuzzysort/master/fuzzysort.js"></script>
+    <script src="../functions.js"></script>
+    <script src="../classscripts.js"></script>
 </body>
 
 </html>

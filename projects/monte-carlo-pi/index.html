@@ -1,0 +1,25 @@
+<!--PI Monte-Carlo Approximation created by yencis on Github-->
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8" />
+    <title>Monte-Carlo Pi</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+</head>
+<html lang=en>
+    <p>Monte Carlo Pi Approximation</p>
+    <body>
+        <canvas id="canvas" width="500" height="500">
+        </canvas>
+        <p>The Approximation of PI:</p>
+        <p id="pi">x</p>
+        <p>Compare to:</p>
+        <p id="mathpi">y</p>
+        <input class="text_input" id="Points" type="text" placeholder="points" value="100" >
+        <input class="text_input" id="Iteration" type="text" placeholder="iteration" value="10">
+        <input class="text_input" id="r" type="text" placeholder="radius" value = "500">
+        <button id="add_point" onclick="add_point()">Add Point</button>
+        <button id="s_button" onclick="calculate()">Start</button>
+        <button id="play_button" onclick="toggle_sim()">Play/Pause</button>
+        <script src="index.js"></script>
+    </body>
+</html>
