@@ -3,6 +3,6 @@
   "version": "1.0.0",
   "dependencies": {},
   "devDependencies": {
-    "@tensorflow/tfjs": "^2.0.1"
+    "@tensorflow/tfjs": "^2.8.6"
   }
 }
